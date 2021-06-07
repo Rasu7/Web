@@ -1,0 +1,308 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner {
+    height: 600px;
+    background-image: url(../images/slider1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    filter: drop-shadow(5px)
+}
+
+.button1,
+.button2 {
+    margin: 10px 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.button1 {
+    background-color: aqua;
+    color: white;
+
+}
+
+.button2 {
+    background-color: black;
+    color: white;
+
+}
+
+.button0 {
+    margin: 5px 10px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: aqua;
+    color: white;
+    display: block;
+}
+
+.button7 {
+    background-color: aqua;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    border: none;
+    font-size: 28px;
+    margin: 8px;
+}
+
+.button4 {
+    margin-top: 8px;
+    padding: 7px 25px;
+    border: 2px solid #00ffff;
+    border-radius: 35px;
+    font-size: 18px;
+    background-color: white;
+    color: black
+}
+
+.button1:hover {
+    background-color: coral;
+    cursor: pointer;
+    color: black;
+}
+
+.button2:hover {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    color: black
+}
+
+.button3:hover {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    color: black
+}
+
+.button4:hover {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    color: black
+}
+
+.button7:hover {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    color: black
+}
+
+.button0:hover {
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    color: black
+}
+
+.content {
+
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.content > h1 {
+    font-size: 70px;
+    color: aqua;
+    font-family: sans-serif;
+    font: Arial Bold;
+    padding-top: 13%;
+}
+
+.content > h4 {
+    font-size: 35px;
+    color: white;
+    font-family: cursive;
+    font: arial;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+
+.heading > h1 {
+    font-size: 45px;
+    color: aqua;
+    font-family: cursive;
+}
+
+.heading > p {
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+}
+
+.section2 {
+    display: inline-block;
+    margin: 15px;
+
+    width: 46%;
+    text-align: center;
+
+
+}
+
+#h1 {
+    font-family: sans-serif;
+    font: Arial;
+    font-size: 40px;
+}
+
+#para {
+    font-family: sans-serif;
+    font: Vardana;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+#us {
+    width: 380px;
+}
+
+
+.offer {
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    font-size: 40px;
+    display: block;
+}
+
+.width {
+    width: 100%;
+    display: inline;
+}
+
+.box {
+    display: inline-block;
+    width: 31.01%;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    background-color: #c1c1c114;
+    border: none;
+    margin: 5px;
+    padding: 8px;
+
+}
+
+.box > img {
+    width: 100px;
+}
+
+.box > para {
+    font-size: 18px;
+}
+
+.slider {
+    height: 200px;
+    background-image: url(../images/bg-section-traveler.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 135px;
+    margin: 0px;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.button3 {
+    background-color: aqua;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    border: none;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.button3 > h1 {
+    padding: 15px;
+    margin: 2px;
+    color: white
+}
+
+.section3 {
+    padding: 30px;
+    margin: 5px;
+}
+
+.name {
+    font-size: 30px;
+    padding: 15px;
+    margin: 0;
+}
+
+.box2 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    color: aqua;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.box2 > img {
+    width: 250px;
+    border: 2px solid aqua;
+    padding: 0;
+    margin: 0;
+
+}
+
+.section4 {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.section4 > h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    margin-bottom: 10px;
+    font: times new roman;
+}
+
+.footer {
+    background-color: black;
+    display: block;
+    margin: 0px;
+}
+
+.footer > p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    padding: 10px;
+
+}
